@@ -34,20 +34,20 @@ faceimage=cv2.imread("Photo.png")
 plt.imshow(faceimage[:,:,::-1]);plt.title("face")
 ```
 
-<img width="297" height="375" alt="Screenshot 2025-09-23 153425" src="https://github.com/user-attachments/assets/57ff7909-a970-4159-bbe6-a6037c24ad27" />
+<img width="474" height="572" alt="image" src="https://github.com/user-attachments/assets/3c70edfe-e9ea-4f85-b247-7c0992cf6a2e" />
 
 ```
 faceimage.shape
 ```
 
-<img width="106" height="30" alt="Screenshot 2025-09-23 153622" src="https://github.com/user-attachments/assets/20a4fff7-fc90-4758-856f-03512bdd0d27" />
+<img width="191" height="62" alt="image" src="https://github.com/user-attachments/assets/71033580-03dd-4b69-ab19-1e3714903465" />
 
 ```
 #resized_faceImage.shape
 faceimage.shape
 ```
 
-<img width="99" height="33" alt="Screenshot 2025-09-23 153913" src="https://github.com/user-attachments/assets/d7339102-799b-40f4-acb8-6667b6a0277d" />
+<img width="180" height="57" alt="image" src="https://github.com/user-attachments/assets/3599a102-3d24-4f52-87ca-b88541523697" />
 
 ```
 # Load the Sunglass image with Alpha channel
@@ -56,7 +56,7 @@ glasspng=cv2.imread('sun.png',-1)
 plt.imshow(glasspng[:,:,::-1]);plt.title("GLASSPNG")
 ```
 
-<img width="491" height="248" alt="Screenshot 2025-09-23 154053" src="https://github.com/user-attachments/assets/d6e3e762-6cd7-43e0-899f-e5876b59c622" />
+<img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/792965d5-fc46-4646-aa81-9284470a0bde" />
 
 ```
 # Resize the image to fit over the eye region
@@ -64,7 +64,7 @@ glasspng=cv2.resize(glasspng,(170,80))
 print("image Dimension={}".format(glasspng.shape))
 ```
 
-<img width="193" height="24" alt="Screenshot 2025-09-23 154603" src="https://github.com/user-attachments/assets/02112f1f-e332-48d6-b366-fa15f6df655e" />
+<img width="693" height="198" alt="image" src="https://github.com/user-attachments/assets/34f45c72-8cda-4f05-a061-15eddb390dff" />
 
 ```
 import cv2
@@ -101,8 +101,6 @@ plt.axis("off")
 plt.show()
 ```
 
-<img width="530" height="148" alt="Screenshot 2025-09-23 154805" src="https://github.com/user-attachments/assets/f8858f57-8667-457c-97b4-5e3bfb6eb5cd" />
-
 ```
 import cv2
 import matplotlib.pyplot as plt
@@ -127,7 +125,7 @@ plt.axis('off')
 plt.show()
 ```
 
-<img width="268" height="314" alt="Screenshot 2025-09-23 155104" src="https://github.com/user-attachments/assets/3f159836-799e-44d5-bc87-800de7ff5bcb" />
+<img width="441" height="503" alt="image" src="https://github.com/user-attachments/assets/732ca9a3-a04e-4b1f-9f42-1329d90d0bf3" />
 
 ```
 import cv2
@@ -189,7 +187,7 @@ plt.subplot(144); plt.imshow(face_with_glasses[...,::-1]); plt.title("Augmented 
 plt.show()
 ```
 
-<img width="906" height="292" alt="Screenshot 2025-09-23 155231" src="https://github.com/user-attachments/assets/3d669962-4c59-470f-bc82-efc32931a2ec" />
+<img width="1398" height="450" alt="image" src="https://github.com/user-attachments/assets/967d5ab2-ffd6-4ee8-a75b-706545bcbc3a" />
 
 ```
 import cv2
@@ -236,7 +234,7 @@ plt.axis('off')
 plt.show()
 ```
 
-<img width="742" height="416" alt="Screenshot 2025-09-23 155443" src="https://github.com/user-attachments/assets/8f56ff9c-ab7a-4d8a-b6bb-80e80b7a210a" />
+<img width="974" height="521" alt="image" src="https://github.com/user-attachments/assets/437104d3-fc09-4000-ae7e-e4ed2a817151" />
 
 ## Applications:
 - Learning basic image processing techniques.
